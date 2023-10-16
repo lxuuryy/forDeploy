@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const path = require('path');
 require('dotenv').config()
 const mongoose = require('mongoose')
 const stripe = require('stripe')('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')
