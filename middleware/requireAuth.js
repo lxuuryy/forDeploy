@@ -22,7 +22,7 @@ const requireAuth = async( req, res, next) => {
     if(decodeValue){
          
     console.log(decodeValue)
-    req.user = decodeValue.user_id
+    req.user = decodeValue.uid
     console.log(req.user)
         
        return next()
