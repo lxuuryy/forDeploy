@@ -35,7 +35,7 @@ app.post("/api/create-checkout-session", async (req, res) => {
       }));
       
       
-      
+     
 
       console.log(lineItems)
   
